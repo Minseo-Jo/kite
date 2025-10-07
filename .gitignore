@@ -1,0 +1,33 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Environment files
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+
+# Temporary files
+temp/
+*.tmp
+
+# 연결 테스트 파일 제외
+test_connection.py
+EOF
