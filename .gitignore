@@ -2,7 +2,7 @@
 
 # Environment files
 .env
-*.env
+*.envㅊ
 .env.*
 !.env.example
 
@@ -31,3 +31,4 @@ temp/
 # 연결 테스트 파일 제외
 test_connection.py
 EOF
+node_modules
